@@ -1,0 +1,32 @@
+{
+  "name": "traversy-handlebars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperkarmic/handlebars-traversy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperkarmic/handlebars-traversy/issues"
+  },
+  "homepage": "https://github.com/hyperkarmic/handlebars-traversy#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
